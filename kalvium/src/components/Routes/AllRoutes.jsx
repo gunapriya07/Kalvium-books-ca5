@@ -8,6 +8,7 @@ function AllRoutes() {
 
   return (
     <>
+    {/* given the paths */}
       <Routes>
        <Route path='/' element={<Home/>}/>
        <Route path='/Books' element={<Books/>}/>

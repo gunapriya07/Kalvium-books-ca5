@@ -1,7 +1,9 @@
 .navbar{
+   /* position: fixed;
+   overflow-x: 1px; */
     width: 100%;
     height: 10vh;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 5px 5vw;
     display: flex;
     justify-content: space-between;
@@ -46,7 +48,7 @@
   
   /* Logo styles */
   .logo {
-    width: 50%;
+    width: 60%;
     height: 100%;
   }
   
@@ -63,10 +65,15 @@
     text-decoration: none;
     font-family: sans-serif;
     font-weight: 300;
+    font-size: 23px;
   }
   
   /* Change link color after clicking */
   .link:active {
     color: red; /* Change the color to your desired color */
   }
-  
+  .emoji{
+  font-size: 25px;
+   position: relative;
+   bottom: 1px;
+}

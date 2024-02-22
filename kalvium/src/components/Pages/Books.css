@@ -2,7 +2,8 @@
     color: black;
 } */
 body{
-    background-color: rgb(182, 222, 222);
+    /* background-color: rgb(182, 222, 222); */
+    background-color: lightgray;
 }
 .searchDiv {
     display: flex;
@@ -16,13 +17,15 @@ body{
     border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
+/* 
 .SearchInput:focus {
     outline: none;
-}
+} */
 
 .SearchInput::placeholder {
-    color: black;
+    color: gray;
+    /* position: relative; */
+    /* right: 190px; */
 }
 
 .searchResultsHeader {
@@ -77,18 +80,21 @@ body{
     align-items: center;
 }
 .free-btn{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: none;
     background-color: red;
+    color: white;
     width: 35px;
 }
 .Rating{
    display: flex;
    justify-content: flex-end;
    align-items: center; 
+   
 }
 
 .authorName {
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .BookImage {
@@ -120,6 +126,15 @@ body{
   
   /* Alternatively, you can add margin-left to the Free text */
   .free {
-    margin-left: 10px; /* Adjust this value as needed */
+    margin-left: 20px; /* Adjust this value as needed */
   }
+  /* .span{
+   margin-left: 30px;
+  } */
   
+  .Emoji_1{
+     position: relative;
+     right: 40px;
+     top:10px;
+     /* bottom: 20px; */
+  }

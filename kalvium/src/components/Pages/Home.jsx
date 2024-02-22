@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import './Home.css';
 import Books from '../Pages/Books';
 
+
 export default function Home() {
   const [exploreClicked, setExploreClicked] = useState(false);
   const [inputFocused, setInputFocused] = useState(false);
+  
+  
 
   const handleExploreClick = () => {
     setExploreClicked(true);
